@@ -1,0 +1,136 @@
+.header {
+  text-align: center;
+}
+body {
+  margin: 0px;
+  background-color: #F4E897;
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  text-align: center;
+  padding: 60px;
+  background-color: #656093;
+  margin: 0px;
+  font-size: 60px;color: azure;
+}
+#pres {margin-left: 70px;}
+/* menu in alto */
+.active {
+  background-color: #4CAF50;
+}
+.menu {
+  background-color: #0F223C;
+  overflow: hidden;
+}
+.Ricerca {
+  float: right;
+	margin-right: 40px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a:hover{background-color: #A4BFEB}
+
+/* 4 cosi sporgenti */
+#lato a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#lato a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+#about {
+  top: 260px;
+  background-color: #BBA0B2;
+}
+#blog {
+  top: 320px;
+  background-color: #A4A8D1;
+}
+#projects {
+  top: 380px;
+  background-color: #0F223C;
+}
+#contact {
+  top: 440px;
+  background-color: #9DBF9E;
+}
+/* immagini dentro piccole */
+.column img {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.column img:hover {
+  opacity: 1;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* The expanding image container (positioning is needed to position the close button and the text) */ {
+  box-sizing: border-box;
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+.row {
+  margin-left: 60px;
+		
+}
+/* Add padding BETWEEN each column */
+.row, .row > .column {
+  padding: 8px;
+}
+/* colonne */
+.column {
+  float: left;
+  width: 23%;
+}
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* img grande */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+/* se restringo 2 colonne */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#grande {margin: 40px;
+}
