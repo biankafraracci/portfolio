@@ -3,13 +3,13 @@
 }
 body {
   margin: 0px;
-  background-color: #F4E897;
+  background-color: #f6f0e6;
   font-family: 'Raleway', sans-serif;
 }
 h1 {
   text-align: center;
   padding: 60px;
-  background-color: #656093;
+  background-color: #4f0b76;
   margin: 0px;
   font-size: 60px;color: azure;
 }
@@ -19,7 +19,7 @@ h1 {
   background-color: #4CAF50;
 }
 .menu {
-  background-color: #0F223C;
+  background-color: #f6a50b;
   overflow: hidden;
 }
 .Ricerca {
@@ -59,19 +59,19 @@ h1 {
 }
 #about {
   top: 260px;
-  background-color: #BBA0B2;
+  background-color: #4f0b76;
 }
 #blog {
   top: 320px;
-  background-color: #A4A8D1;
+  background-color: #8b2d74;
 }
 #projects {
   top: 380px;
-  background-color: #0F223C;
+  background-color: #c74956;
 }
 #contact {
   top: 440px;
-  background-color: #9DBF9E;
+  background-color: #ea7434;
 }
 /* immagini dentro piccole */
 .column img {
@@ -81,16 +81,13 @@ h1 {
 .column img:hover {
   opacity: 1;
 }
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-/* The expanding image container (positioning is needed to position the close button and the text) */ {
-  box-sizing: border-box;
-}
-/* Center website */
+
 .main {
   max-width: 1000px;
   margin: auto;
@@ -99,7 +96,7 @@ h1 {
   margin-left: 60px;
 		
 }
-/* Add padding BETWEEN each column */
+
 .row, .row > .column {
   padding: 8px;
 }
@@ -108,7 +105,7 @@ h1 {
   float: left;
   width: 23%;
 }
-/* Clear floats after rows */
+
 .row:after {
   content: "";
   display: table;
@@ -119,6 +116,7 @@ h1 {
   background-color: white;
   padding: 10px;
 }
+img { width: 70%;}
 /* se restringo 2 colonne */
 @media screen and (max-width: 900px) {
   .column {
